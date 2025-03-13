@@ -1,0 +1,557 @@
+{
+    "DOC_TYPE": "ZTA",
+    "FACT_UNIFICADA": "true",
+    "NUMSERVSOLICITANTE": "",
+    "NUMSERVPAGADOR": "CD048",
+    "SALES_ORG": "2500",
+    "DISTR_CHAN": "Z6",
+    "DIVISION": "S1",
+    "REQ_DATE_H": "20241101",
+    "PURCH_NO_C": "PEDIDO DESDE BAPIPOSTMAN TERE",
+    "CURRENCY": "USD",
+    "ACTIVE_TAB_MXN": false,
+    "TOTAL_MXN": "0",
+    "ACTIVE_TAB_USD": true,
+    "TOTAL_USD": "380904.33",
+    "ACTIVE_ENTREGA": true,
+    "REQ_TAB_CONCEPTO_MXN": [],
+    "REQ_TAB_CONCEPTO_USD": [
+        {
+            "ITM_NUMBER": "10",
+            "MATERIAL": "ENECONTR",
+            "CONCEPTO": "ENERGIA CONTRATADA",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3306.6",
+            "COND_VALUE": "50.76",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "167846.32"
+        },
+        {
+            "ITM_NUMBER": "20",
+            "MATERIAL": "ENEVEND",
+            "CONCEPTO": "ENERGIA VENDIDA",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "0.62",
+            "COND_VALUE": "-26.73",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "-16.61"
+        },
+        {
+            "ITM_NUMBER": "30",
+            "MATERIAL": "PNTEC",
+            "CONCEPTO": "PERDIDAS NO TECNICAS",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "1.55",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "5128.43"
+        },
+        {
+            "ITM_NUMBER": "40",
+            "MATERIAL": "PERED",
+            "CONCEPTO": "PERDIDAS DE LA RED",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "0.04",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "128.76"
+        },
+        {
+            "ITM_NUMBER": "50",
+            "MATERIAL": "SCONEX",
+            "CONCEPTO": "SERVICIOS CONEXOS",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "0.66",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "2178.81"
+        },
+        {
+            "ITM_NUMBER": "60",
+            "MATERIAL": "COPECECAR",
+            "CONCEPTO": "COSTO DE OPERACION DE CENACE CARGA",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "0.32",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "1048.93"
+        },
+        {
+            "ITM_NUMBER": "70",
+            "MATERIAL": "COPECEGEN",
+            "CONCEPTO": "COSTO DE OPERACION DE CENACE GENERADOR",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3306.6",
+            "COND_VALUE": "0.13",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "421.46"
+        },
+        {
+            "ITM_NUMBER": "80",
+            "MATERIAL": "GASUF",
+            "CONCEPTO": "GARANTIA DE SUFICIENCIA",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "5.12",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "16933.55"
+        },
+        {
+            "ITM_NUMBER": "90",
+            "MATERIAL": "TRANCAR",
+            "CONCEPTO": "TRANSMISION CARGA",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "8.57",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "28332.2"
+        },
+        {
+            "ITM_NUMBER": "100",
+            "MATERIAL": "TRANGEN",
+            "CONCEPTO": "TRANSMISION GENERADOR",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3306.6",
+            "COND_VALUE": "2.9",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "9595.35"
+        },
+        {
+            "ITM_NUMBER": "110",
+            "MATERIAL": "DIST",
+            "CONCEPTO": "DISTRIBUCION CARGA",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "8.62",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "28503.11"
+        },
+        {
+            "ITM_NUMBER": "120",
+            "MATERIAL": "POTCONTR",
+            "CONCEPTO": "POTENCIA CONTRATO",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "12.9",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "42653.6"
+        },
+        {
+            "ITM_NUMBER": "130",
+            "MATERIAL": "CONGMEM",
+            "CONCEPTO": "CONGESTION MEM",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "-1.27",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "-4202.03"
+        },
+        {
+            "ITM_NUMBER": "140",
+            "MATERIAL": "CONGCONTR",
+            "CONCEPTO": "CONGESTION CONTRATO",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3306.6",
+            "COND_VALUE": "1.75",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "5783.06"
+        },
+        {
+            "ITM_NUMBER": "150",
+            "MATERIAL": "CEL",
+            "CONCEPTO": "CERTIFICADOS DE ENERGIA LIMPIA REQUERIDOS",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "2.46",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "8128.19"
+        },
+        {
+            "ITM_NUMBER": "160",
+            "MATERIAL": "RELIQ",
+            "CONCEPTO": "RELIQUIDACIONES",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "-0.66",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "-2177.75"
+        },
+        {
+            "ITM_NUMBER": "170",
+            "MATERIAL": "OCARGABON",
+            "CONCEPTO": "OTROS CARGOS Y/O ABONOS",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "1.53",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "5061.47"
+        },
+        {
+            "ITM_NUMBER": "180",
+            "MATERIAL": "SERVAMM",
+            "CONCEPTO": "SERVICIO AMMPER",
+            "PLANT": "25A0",
+            "UNIDAD": "KG",
+            "QTY": "3305.98",
+            "COND_VALUE": "3.94",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "TOTAL": "13018.94"
+        }
+    ],
+    "REQ_TAB_CONSUMO": [
+        {
+            "ITM_NUMBER": "10",
+            "CONCEPTO": "CONSUMO NETO",
+            "UNIDAD": "MWH",
+            "QTY": "3305.98",
+            "COND_VALUE": "0",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "MXN_MWH": "0",
+            "TOTAL": "0"
+        },
+        {
+            "ITM_NUMBER": "20",
+            "CONCEPTO": "CONSUMO CONTRATADO",
+            "UNIDAD": "MWH",
+            "QTY": "3306.6",
+            "COND_VALUE": "0",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "MXN_MWH": "0",
+            "TOTAL": "0"
+        },
+        {
+            "ITM_NUMBER": "30",
+            "CONCEPTO": "ENERGIA VENDIDA",
+            "UNIDAD": null,
+            "QTY": "0.62",
+            "COND_VALUE": "0",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "MXN_MWH": "0",
+            "TOTAL": "0"
+        }
+    ],
+    "REQ_TAB_TARIFA_MXN": [],
+    "REQ_TAB_TARIFA_USD": [
+        {
+            "ITM_NUMBER": "10",
+            "CONCEPTO": "TARIFA SUMINISTRO",
+            "UNIDAD": "MXN/MWH",
+            "QTY": "0",
+            "MONTO1": "0",
+            "MONTO2": "0",
+            "MXN_MWH": "99.32",
+            "TOTAL": "0"
+        }
+    ],
+    "PARAMETROS_ADICIONALES": [
+        {
+            "CONSUMOMENSUAL": "3305.98",
+            "PERIODOCONSUMO": {
+                "PERIODOINICIAL": "20241101",
+                "PERIODOFINAL": "20241130"
+            },
+            "FECHALIMITEDEPAGO": null,
+            "POTENCIA100HORASCRITICASMW": "5.92",
+            "TIPODECAMBIO": "20.27",
+            "CELSREQUERIDOS": null,
+            "CELSCONTRATADOS": null,
+            "CELSACUMULADOS": null
+        }
+    ],
+    "REQ_TAB_PARAMETROS_ESTADISTICO": [
+        {
+            "ITM_NUMBER": "1",
+            "FECHA": "20241101",
+            "ENERGIA_CONSUMIDA": "134.09",
+            "ENERGIA_CONTRATADA": "134.12",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "2",
+            "FECHA": "20241102",
+            "ENERGIA_CONSUMIDA": "77.81",
+            "ENERGIA_CONTRATADA": "77.82",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "3",
+            "FECHA": "20241103",
+            "ENERGIA_CONSUMIDA": "74.72",
+            "ENERGIA_CONTRATADA": "74.74",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "4",
+            "FECHA": "20241104",
+            "ENERGIA_CONSUMIDA": "118.58",
+            "ENERGIA_CONTRATADA": "118.6",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "5",
+            "FECHA": "20241105",
+            "ENERGIA_CONSUMIDA": "128.25",
+            "ENERGIA_CONTRATADA": "128.27",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "6",
+            "FECHA": "20241106",
+            "ENERGIA_CONSUMIDA": "130.16",
+            "ENERGIA_CONTRATADA": "130.18",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "7",
+            "FECHA": "20241107",
+            "ENERGIA_CONSUMIDA": "132.73",
+            "ENERGIA_CONTRATADA": "132.75",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "8",
+            "FECHA": "20241108",
+            "ENERGIA_CONSUMIDA": "128.01",
+            "ENERGIA_CONTRATADA": "128.04",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "9",
+            "FECHA": "20241109",
+            "ENERGIA_CONSUMIDA": "114.29",
+            "ENERGIA_CONTRATADA": "114.31",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "10",
+            "FECHA": "20241110",
+            "ENERGIA_CONSUMIDA": "82.01",
+            "ENERGIA_CONTRATADA": "82.03",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "11",
+            "FECHA": "20241111",
+            "ENERGIA_CONSUMIDA": "110.55",
+            "ENERGIA_CONTRATADA": "110.57",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "12",
+            "FECHA": "20241112",
+            "ENERGIA_CONSUMIDA": "127.52",
+            "ENERGIA_CONTRATADA": "127.55",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "13",
+            "FECHA": "20241113",
+            "ENERGIA_CONSUMIDA": "129.65",
+            "ENERGIA_CONTRATADA": "129.67",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "14",
+            "FECHA": "20241114",
+            "ENERGIA_CONSUMIDA": "129.64",
+            "ENERGIA_CONTRATADA": "129.67",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "15",
+            "FECHA": "20241115",
+            "ENERGIA_CONSUMIDA": "117.61",
+            "ENERGIA_CONTRATADA": "117.64",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "16",
+            "FECHA": "20241116",
+            "ENERGIA_CONSUMIDA": "98.72",
+            "ENERGIA_CONTRATADA": "98.74",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "17",
+            "FECHA": "20241117",
+            "ENERGIA_CONSUMIDA": "61.37",
+            "ENERGIA_CONTRATADA": "61.38",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "18",
+            "FECHA": "20241118",
+            "ENERGIA_CONSUMIDA": "69.82",
+            "ENERGIA_CONTRATADA": "69.83",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "19",
+            "FECHA": "20241119",
+            "ENERGIA_CONSUMIDA": "112.66",
+            "ENERGIA_CONTRATADA": "112.68",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "20",
+            "FECHA": "20241120",
+            "ENERGIA_CONSUMIDA": "128.52",
+            "ENERGIA_CONTRATADA": "128.54",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "21",
+            "FECHA": "20241121",
+            "ENERGIA_CONSUMIDA": "128.88",
+            "ENERGIA_CONTRATADA": "128.9",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "22",
+            "FECHA": "20241122",
+            "ENERGIA_CONSUMIDA": "112.97",
+            "ENERGIA_CONTRATADA": "112.99",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "23",
+            "FECHA": "20241123",
+            "ENERGIA_CONSUMIDA": "93.6",
+            "ENERGIA_CONTRATADA": "93.62",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "24",
+            "FECHA": "20241124",
+            "ENERGIA_CONSUMIDA": "70.84",
+            "ENERGIA_CONTRATADA": "70.85",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "25",
+            "FECHA": "20241125",
+            "ENERGIA_CONSUMIDA": "109.21",
+            "ENERGIA_CONTRATADA": "109.23",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "26",
+            "FECHA": "20241126",
+            "ENERGIA_CONSUMIDA": "124.13",
+            "ENERGIA_CONTRATADA": "124.15",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "27",
+            "FECHA": "20241127",
+            "ENERGIA_CONSUMIDA": "124.05",
+            "ENERGIA_CONTRATADA": "124.07",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "28",
+            "FECHA": "20241128",
+            "ENERGIA_CONSUMIDA": "125.48",
+            "ENERGIA_CONTRATADA": "125.5",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "29",
+            "FECHA": "20241129",
+            "ENERGIA_CONSUMIDA": "113.35",
+            "ENERGIA_CONTRATADA": "113.37",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        },
+        {
+            "ITM_NUMBER": "30",
+            "FECHA": "20241130",
+            "ENERGIA_CONSUMIDA": "96.77",
+            "ENERGIA_CONTRATADA": "96.78",
+            "ENERGIA_AA": "0",
+            "ENERGIA_RELIQUIDADA": "0"
+        }
+    ],
+    "REQ_TAB_BAJA_INV_CERT": [
+        {
+            "ITM_NUMBER": "10",
+            "MATERIAL": "CEL1",
+            "CANT_ENTREGA": "459",
+            "CENTRO": "25A0",
+            "LGORT": "25A0"
+        },
+        {
+            "ITM_NUMBER": "20",
+            "MATERIAL": "IRECS1",
+            "CANT_ENTREGA": "1524",
+            "CENTRO": "25A0",
+            "LGORT": "25A0"
+        }
+    ]
+}

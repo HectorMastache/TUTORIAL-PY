@@ -1,0 +1,1386 @@
+{
+    "message": "Consulta Realizada con Exito",
+    "data": [
+        {
+            "HENKELSAN": {
+                "Global": {
+                    "version": "67b4b9edea7bd275eb84da46",
+                    "active": false,
+                    "creation_date": "2025-02-18 10:48:45.287692"
+                },
+                "id_pci": "HENKELSAN",
+                "General": {
+                    "Name": "HENKELSAN",
+                    "Fecha_Contr_I": "2022-08-27T12:03:01-05:00",
+                    "Fecha_Contr_F": "2026-08-27T12:03:01-06:00",
+                    "Params": {
+                        "PpaTipoCambio": {
+                            "group_alias": "Tipo Cambio Ultimo Día Hábil Del Mes DOF",
+                            "group_id": "gn_001",
+                            "name_param": "tipoCambioLastDOFDiaHabil"
+                        },
+                        "PpaOperacionCENACEGenerador": {
+                            "group_alias": "Operación CENACE Generadores",
+                            "group_id": "gn_049",
+                            "name_param": "Operacion CENACE Generadores"
+                        },
+                        "PpaTransmisionGeneradores": {
+                            "group_alias": "Transmisión Generadores Tensión Menor Que 220 kV",
+                            "group_id": "gn_051",
+                            "name_param": "Transmision Generadores Tension MenorQue220 kV"
+                        },
+                        "PpaRequerimientoCEL": {
+                            "group_alias": "Requerimiento CEL CENACE",
+                            "group_id": "gn_025",
+                            "name_param": "RequestCELCENACE"
+                        },
+                        "PpaTarifaEnergiaContratada": {
+                            "group_alias": "Tarifa Energía Contratada Por Cliente",
+                            "group_id": "gn_002",
+                            "param_id": "pn_012",
+                            "name_param": "EnergyContractPriceHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "41"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": true,
+                            "completed_param": false
+                        },
+                        "PpaTarifaPotenciaContratada": {
+                            "group_alias": "Tarifa Potencia Contratada Por Cliente",
+                            "group_id": "gn_020",
+                            "param_id": "pn_037",
+                            "name_param": "TarifaPotenciaContratadaHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "6.11"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": true,
+                            "completed_param": false
+                        },
+                        "PpaPotenciaContratada": {
+                            "group_alias": "Potencia Contratada Por Cliente",
+                            "group_id": "gn_022",
+                            "param_id": "pn_040",
+                            "name_param": "PotenciaContratadaHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "0.17"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": false,
+                            "completed_param": false
+                        },
+                        "PpaTarifaCongestionContrato": {
+                            "group_alias": "Tarifa Congestión Contrato Por Cliente",
+                            "group_id": "gn_024",
+                            "param_id": "pn_044",
+                            "name_param": "TarifaCongestionContratoHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "49.97"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": true,
+                            "completed_param": false
+                        },
+                        "PpaTarifaCEL": {
+                            "group_alias": "Tarifa CEL Por Cliente",
+                            "group_id": "gn_026",
+                            "param_id": "pn_046",
+                            "name_param": "CELPriceHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "10"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": true,
+                            "completed_param": false
+                        },
+                        "PpaTarifaServicioAmmper": {
+                            "group_alias": "Tarifa Servicio Ammper Por Cliente",
+                            "group_id": "gn_031",
+                            "param_id": "pn_052",
+                            "name_param": "TarifaServicioAmmperHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "3"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": true,
+                            "completed_param": false
+                        },
+                        "PpaTarifaIRECS": {
+                            "group_alias": "Tarifa IRECS Por Cliente",
+                            "group_id": "gn_035",
+                            "param_id": "pn_057",
+                            "name_param": "TarifaIRECSHENKELSAN",
+                            "value": {
+                                "2022-08-27 12:03": "2.75"
+                            },
+                            "inflacion": [],
+                            "finalReport": {
+                                "SAP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                },
+                                "REP": {
+                                    "10": true,
+                                    "11": true,
+                                    "12": true,
+                                    "01": true,
+                                    "02": true,
+                                    "03": true,
+                                    "04": true,
+                                    "05": true,
+                                    "06": true,
+                                    "07": true,
+                                    "08": true,
+                                    "09": true
+                                }
+                            },
+                            "inflationed": true,
+                            "completed_param": false
+                        }
+                    },
+                    "Periodicidad_Factura": "Mensual",
+                    "Tipo_Contr": "SUMINISTRO",
+                    "Legada": null,
+                    "Subcuenta_Legada": null,
+                    "Fecha_Legada": "2024-06-05T08:32:54-06:00",
+                    "Fecha_Op": "2022-08-27",
+                    "Report_Type": {
+                        "label": "Reporte Genérico",
+                        "value": "reporte_generico"
+                    },
+                    "Medidor": {
+                        "RMU": "52600210118XHCA000314160AEN",
+                        "METER": "52600210118XHCA000314160AEN"
+                    },
+                    "Subcuenta": "C006052",
+                    "Clv_Unidad": "C006-104-HM",
+                    "Fecha_Contr": "2022-08-27",
+                    "Nodo_G": "VDM SUR",
+                    "Nodo_C": "VDM SUR",
+                    "Tipo": "CIM",
+                    "Swing": "0,0",
+                    "Distribuida": 1,
+                    "Tarifa": "GDMT",
+                    "Tension": "23.00"
+                },
+                "CFE": {},
+                "TF": {},
+                "modified_by_username": "ammper-azure-ad-prd_hmastache@ammper.com",
+                "modified_by_name": "Hector de Jesus Mastache Salgado",
+                "Suministro": {
+                    "EneContr": {
+                        "Metodo": "CoberturaTotal",
+                        "Moneda": "USD",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "PeRed": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "PnTec": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "SConex": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "COpeCeCar": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "COpeCeGen": {
+                        "Metodo": "regulatedFeeMxn",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "GaSuf": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "TranCar": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "TranGen": {
+                        "Metodo": "regulatedFeeMxn",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "Dist": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "PotContr": {
+                        "Metodo": "fixedPriceUSD",
+                        "Moneda": "USD",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "CongContr": {
+                        "Metodo": "fixedPriceMXN",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "CEL": {
+                        "Metodo": "ToConsume",
+                        "Moneda": "USD",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "Reliq": {
+                        "Metodo": "TablaMEMSinCongestion",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "OCargAbon": {
+                        "Metodo": "passthrough",
+                        "Moneda": "MXN",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "ServAmm": {
+                        "Metodo": "fixedPriceUSD",
+                        "Moneda": "USD",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    },
+                    "IRECS": {
+                        "Metodo": "FixedPriceCurvCont",
+                        "Moneda": "USD",
+                        "Consumo_Tarifa": "EneNeto_MWh",
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        }
+                    }
+                },
+                "Servicios_Inventariados": {
+                    "ServInvCEL": {
+                        "Metodo": "CELNetoReq"
+                    }
+                },
+                "all_Params": {
+                    "PpaTipoCambio": {
+                        "group_alias": "Tipo Cambio Ultimo Día Hábil Del Mes DOF",
+                        "group_id": "gn_001",
+                        "name_param": "tipoCambioLastDOFDiaHabil"
+                    },
+                    "PpaOperacionCENACEGenerador": {
+                        "group_alias": "Operación CENACE Generadores",
+                        "group_id": "gn_049",
+                        "name_param": "Operacion CENACE Generadores"
+                    },
+                    "PpaTransmisionGeneradores": {
+                        "group_alias": "Transmisión Generadores Tensión Menor Que 220 kV",
+                        "group_id": "gn_051",
+                        "name_param": "Transmision Generadores Tension MenorQue220 kV"
+                    },
+                    "PpaRequerimientoCEL": {
+                        "group_alias": "Requerimiento CEL CENACE",
+                        "group_id": "gn_025",
+                        "name_param": "RequestCELCENACE"
+                    },
+                    "PpaTarifaEnergiaContratada": {
+                        "group_alias": "Tarifa Energía Contratada Por Cliente",
+                        "group_id": "gn_002",
+                        "param_id": "pn_012",
+                        "name_param": "EnergyContractPriceHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "41"
+                        },
+                        "inflacion": [
+                            {
+                                "id": "Tarifa Energía Contratada Por Cliente",
+                                "parentId": null,
+                                "alias": "Tarifa Energía Contratada Por Cliente",
+                                "actualization": null,
+                                "actualizationDate": null,
+                                "startInflationDate": "2022-08-27T12:03:01-05:00",
+                                "endInflationDate": "2026-08-27T12:03:01-06:00",
+                                "methodology": null,
+                                "superiorLimit": null,
+                                "med_id": null,
+                                "is_active": false,
+                                "round": 16,
+                                "round_inflation_index": 16,
+                                "has_html": false
+                            }
+                        ],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": true,
+                        "completed_param": false
+                    },
+                    "PpaTarifaPotenciaContratada": {
+                        "group_alias": "Tarifa Potencia Contratada Por Cliente",
+                        "group_id": "gn_020",
+                        "param_id": "pn_037",
+                        "name_param": "TarifaPotenciaContratadaHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "6.11"
+                        },
+                        "inflacion": [
+                            {
+                                "id": "Tarifa Potencia Contratada Por Cliente",
+                                "parentId": null,
+                                "alias": "Tarifa Potencia Contratada Por Cliente",
+                                "actualization": null,
+                                "actualizationDate": null,
+                                "startInflationDate": "2022-08-27T12:03:01-05:00",
+                                "endInflationDate": "2026-08-27T12:03:01-06:00",
+                                "methodology": null,
+                                "superiorLimit": null,
+                                "med_id": null,
+                                "is_active": false,
+                                "round": 16,
+                                "round_inflation_index": 16,
+                                "has_html": false
+                            }
+                        ],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": true,
+                        "completed_param": false
+                    },
+                    "PpaPotenciaContratada": {
+                        "group_alias": "Potencia Contratada Por Cliente",
+                        "group_id": "gn_022",
+                        "param_id": "pn_040",
+                        "name_param": "PotenciaContratadaHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "0.17"
+                        },
+                        "inflacion": [],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": false,
+                        "completed_param": false
+                    },
+                    "PpaTarifaCongestionContrato": {
+                        "group_alias": "Tarifa Congestión Contrato Por Cliente",
+                        "group_id": "gn_024",
+                        "param_id": "pn_044",
+                        "name_param": "TarifaCongestionContratoHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "49.97"
+                        },
+                        "inflacion": [
+                            {
+                                "id": "Tarifa Congestión Contrato Por Cliente",
+                                "parentId": null,
+                                "alias": "Tarifa Congestión Contrato Por Cliente",
+                                "actualization": null,
+                                "actualizationDate": null,
+                                "startInflationDate": "2022-08-27T12:03:01-05:00",
+                                "endInflationDate": "2026-08-27T12:03:01-06:00",
+                                "methodology": null,
+                                "superiorLimit": null,
+                                "med_id": null,
+                                "is_active": false,
+                                "round": 16,
+                                "round_inflation_index": 16,
+                                "has_html": false
+                            }
+                        ],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": true,
+                        "completed_param": false
+                    },
+                    "PpaTarifaCEL": {
+                        "group_alias": "Tarifa CEL Por Cliente",
+                        "group_id": "gn_026",
+                        "param_id": "pn_046",
+                        "name_param": "CELPriceHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "10"
+                        },
+                        "inflacion": [
+                            {
+                                "id": "Tarifa CEL Por Cliente",
+                                "parentId": null,
+                                "alias": "Tarifa CEL Por Cliente",
+                                "actualization": null,
+                                "actualizationDate": null,
+                                "startInflationDate": "2022-08-27T12:03:01-05:00",
+                                "endInflationDate": "2026-08-27T12:03:01-06:00",
+                                "methodology": null,
+                                "superiorLimit": null,
+                                "med_id": null,
+                                "is_active": false,
+                                "round": 16,
+                                "round_inflation_index": 16,
+                                "has_html": false
+                            }
+                        ],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": true,
+                        "completed_param": false
+                    },
+                    "PpaTarifaServicioAmmper": {
+                        "group_alias": "Tarifa Servicio Ammper Por Cliente",
+                        "group_id": "gn_031",
+                        "param_id": "pn_052",
+                        "name_param": "TarifaServicioAmmperHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "3"
+                        },
+                        "inflacion": [
+                            {
+                                "id": "Tarifa Servicio Ammper Por Cliente",
+                                "parentId": null,
+                                "alias": "Tarifa Servicio Ammper Por Cliente",
+                                "actualization": null,
+                                "actualizationDate": null,
+                                "startInflationDate": "2022-08-27T12:03:01-05:00",
+                                "endInflationDate": "2026-08-27T12:03:01-06:00",
+                                "methodology": null,
+                                "superiorLimit": null,
+                                "med_id": null,
+                                "is_active": false,
+                                "round": 16,
+                                "round_inflation_index": 16,
+                                "has_html": false
+                            }
+                        ],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": true,
+                        "completed_param": false
+                    },
+                    "PpaTarifaIRECS": {
+                        "group_alias": "Tarifa IRECS Por Cliente",
+                        "group_id": "gn_035",
+                        "param_id": "pn_057",
+                        "name_param": "TarifaIRECSHENKELSAN",
+                        "value": {
+                            "2022-08-27 12:03": "2.75"
+                        },
+                        "inflacion": [
+                            {
+                                "id": "Tarifa IRECS Por Cliente",
+                                "parentId": null,
+                                "alias": "Tarifa IRECS Por Cliente",
+                                "actualization": null,
+                                "actualizationDate": null,
+                                "startInflationDate": "2022-08-27T12:03:01-05:00",
+                                "endInflationDate": "2026-08-27T12:03:01-06:00",
+                                "methodology": null,
+                                "superiorLimit": null,
+                                "med_id": null,
+                                "is_active": false,
+                                "round": 16,
+                                "round_inflation_index": 16,
+                                "has_html": false
+                            }
+                        ],
+                        "finalReport": {
+                            "SAP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            },
+                            "REP": {
+                                "10": true,
+                                "11": true,
+                                "12": true,
+                                "01": true,
+                                "02": true,
+                                "03": true,
+                                "04": true,
+                                "05": true,
+                                "06": true,
+                                "07": true,
+                                "08": true,
+                                "09": true
+                            }
+                        },
+                        "inflationed": true,
+                        "completed_param": false
+                    }
+                },
+                "created_at": "2025-02-18 10:48:45.287692",
+                "status": false
+            }
+        }
+    ]
+}

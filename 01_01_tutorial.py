@@ -1,0 +1,1 @@
+print ('HOLA MUNDO desde VISUAL STUDIO CODE con PYTHON')
